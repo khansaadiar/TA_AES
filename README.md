@@ -8,7 +8,7 @@ Project Tugas Akhir Automated Essay Scoring.
 2.  Install dependencies: `pip install -r requirements.txt` (Create requirements.txt if needed)
 3.  **IMPORTANT: Model File**
     - The model file `model_prompt_3_qwk_0_7879.pth` is too large for GitHub.
-    - Please download `model_prompt_3_qwk_0_7879.zip` from [SOURCE_LINK_HERE] (You verify this).
+    - Please download `model_prompt_3_qwk_0_7879.zip` from [this Google Drive link](https://drive.google.com/drive/folders/1VrKhQPcmmp1OM32kyQmWKGku_mGMJd11?usp=sharing).
     - **Extract/Unzip** it.
     - Place the `.pth` file in: `backend/models/model_prompt_3_qwk_0_7879.pth`.
 4.  Run the server: `python main.py` or `uvicorn main:app --reload`
