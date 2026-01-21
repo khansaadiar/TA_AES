@@ -13,7 +13,9 @@ from transformers import AutoTokenizer, AutoModel
 # 1. KONFIGURASI & PREPROCESSING
 # ==========================================
 
-MODEL_PATH = "/Users/mac/Documents/ITS/BISMILLAH_TA/modelll/full/model_prompt_3_qwk_0_7879.pth"
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, "models", "model_prompt_3_qwk_0_7879.pth")
 
 class Config:
     BERT_MODEL_NAME = "indobenchmark/indobert-base-p1"
